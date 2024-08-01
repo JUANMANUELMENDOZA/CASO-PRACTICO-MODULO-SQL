@@ -282,6 +282,13 @@ b).- Asian enero 1186, febrero 1117 y marzo 1167 pedidos. Es la categoría estre
 c).- Mexican enero 1026, febrero 948 y marzo 971 pedidos. Se observa una tendencia a la baja en pedidos.
 d).- Italian enero 998, febrero 927 y marzo 1023 pedidos. Es la categoría estrella en ventas y muestra una tendecia a la mejora del 10%  el mes de marzo  respecto a febrero.
 
+![Captura de Pantalla 2024-07-31 a la(s) 9 47 09 p m](https://github.com/user-attachments/assets/9ba1684c-8592-4e07-81e9-63ec796c2f46)
+
+![Captura de Pantalla 2024-07-31 a la(s) 9 50 13 p m](https://github.com/user-attachments/assets/fdad5352-6d20-4ec7-a0dc-27279679d49a)
+
+
+![Captura de Pantalla 2024-07-31 a la(s) 9 50 37 p m](https://github.com/user-attachments/assets/419e049b-3828-4502-a29f-2b5ac6703911)
+
 
 2.- El resultado del análisis al contrastar PEDIDOS por PRODUCTO de comida, se observa lo siguiente. El comportamiento de los 12234 registrados en el periodo pedidos por cada uno de los        32 productos incluidos en el menu, registra datos interesantes.
 
@@ -291,6 +298,12 @@ c).- Mexican: Steak torta 489, Chip&salsa 461, Chicken Burrito 455, Chicken tort
 d).- Italian: Spaghetti & meatballs 470, Eggplant parmesan 420, Spaghetti 367, Chicken parmesan 364, Mushroom Ravioli 359, Meat Lasagna 273, Fetuccine Alfredo 249, Shrimp Scampi 239 y Cheese Lasagna 207.
 
 Los 10 productos estrella en lo que respecta a pedidos, dicho de otra forma, los más solicitados son: Hamburger 622,  Edamame 620, Korean Beef Bowl 588, Cheeseburger 583, French fries 571, Tofu Pad Tai 562, Steak torta 489, Spaghetti & meatballs 470, Mac&Cheese 463 y Chip&salsa 461. Cabe mencionar que 10 de los 32 productos un 30%, representan el 45% del total de los pedidos. 
+
+
+![Captura de Pantalla 2024-07-31 a la(s) 9 47 33 p m](https://github.com/user-attachments/assets/aa588276-bdbc-4e9f-93c4-4778b2435df4)
+
+![Captura de Pantalla 2024-07-31 a la(s) 10 00 37 p m](https://github.com/user-attachments/assets/d0fa9e2c-b983-4cf0-9064-1570ff68dfd8)
+
 
 
 3.- Como resultado del análisis realizado a las variables VENTAS por CATEGORíA de comida, podemos observar lo siguiente: Se tiene registrado un ingreso total por concepto de ventas de      $159, 217.90, al estratificar por categoría de comida se obtuvieron los siguientes resultados.
@@ -305,6 +318,16 @@ b).- Asian enero $15,588.5, febrero $15,075.7 y marzo $16,056.45. Es la categor�
 c).- Mexican enero $12,215.88, febrero $11,222.45 y marzo $11,358.50. Se observa una tendencia a la mejora el último mes respecto a febrero..
 d).- Italian enero $16,727.75, febrero $15,545.05 y marzo $17,189.90. Es la categoría estrella en ventas y muestra una tendecia a la mejora del 10.57%  el mes de marzo  respecto a febrero.
 
+![Captura de Pantalla 2024-07-31 a la(s) 9 48 23 p m](https://github.com/user-attachments/assets/262540b4-f869-46fa-9dc9-73f52a628e6e)
+
+![Captura de Pantalla 2024-07-31 a la(s) 9 50 13 p m](https://github.com/user-attachments/assets/c7afa70f-d058-4b77-acae-a8cc7a34c747)
+
+
+![Captura de Pantalla 2024-07-31 a la(s) 9 50 37 p m](https://github.com/user-attachments/assets/561fae21-7d62-4628-8404-95496a72beb2)
+
+
+
+
 
 4.- El resultado del análisis al contrastar VENTAS por PRODUCTO de comida, se observa lo siguiente. El registro de los ingresos obtenidos por venta de los 32 productos de comida es por un total de $159,217.90. Ahora bien, distribuido por productos se tiene lo siguiente.
 
@@ -314,6 +337,11 @@ c).- Mexican: Steak torta $6,822, Chip&salsa $3,227, Chicken Burrito $5,892, Chi
 d).- Italian: Spaghetti & meatballs $8,436, Eggplant parmesan $7,119, Spaghetti $5,322, Chicken parmesan $6,534, Mushroom Ravioli $5,565, Meat Lasagna $4,900, Fetuccine Alfredo $3,611, Shrimp Scampi $4,768 y Cheese Lasagna $3,209.
 
 Los 10 productos estrella en lo que respecta a ventas, dicho de otra forma, los más solicitados son: Korean Beef Bowl $10,555, Spaghetti & meatballs $8,436,  Tofu Pad Tai $8,149 ,  Cheeseburger $8,133,  Hamburger $8,055, Orange Chicken $7,524,   Eggplant parmesan $7,119,  Steak torta $6,822,  Chicken parmesan $6,534 y  Pork Ramen $6,462. Cabe mencionar que 10 de los 32 productos un 30%, representan el 50% del total de las ventas. 
+
+![Captura de Pantalla 2024-07-31 a la(s) 9 49 01 p m](https://github.com/user-attachments/assets/efcb62bb-b864-4e3f-92bd-388e60e40d7e)
+
+![Captura de Pantalla 2024-07-31 a la(s) 9 49 25 p m](https://github.com/user-attachments/assets/893f5437-780f-49f7-bd8f-9f29ae8d1037)
+
 
 
 5.- El resultado del análisis al contrastar VENTAS por PRODUCTO de comida, se observa lo siguiente. El registro de los ingresos obtenidos por venta de los 32 productos de comida es por un total de $159,217.90. Ahora bien, distribuido por productos durante el periodo enero-marzo, se tiene lo siguiente.
@@ -328,6 +356,7 @@ c).- Esta puede ser una estratégia que se puede fortalecer, integrar combos con
 d).- Existe un portafolio bien diversificado de clientes, un segmento enfocado en platillos más gourmet (Italian y Asian) que representan un ingreso importante en ventas. Asimismo, segmentos de clientes enfocados en platillos populares de bajo y medio costo que se encuentran en las categorías de comidas (american y Mexican).
 
 
+![Captura de Pantalla 2024-07-31 a la(s) 9 51 29 p m](https://github.com/user-attachments/assets/a1810fde-4444-4b23-89f2-62582c99ff36)
 
 
 
