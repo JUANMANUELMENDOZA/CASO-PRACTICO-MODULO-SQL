@@ -259,11 +259,11 @@ ORDER BY 1 DESC;
 
 /* 21.-) Consultar total de ingresos obtenidos por categoria de comida 'Italian'*/
 
-SELECT SUM (menu_items.price), category
+...SELECT SUM (menu_items.price), category
 FROM order_details JOIN menu_items ON order_details.item_id=menu_items.menu_item_id
 WHERE category='Italian' 
 GROUP BY 2
-ORDER BY 1 DESC;
+ORDER BY 1 DESC;...
 
 ## Resultados
 
@@ -271,12 +271,13 @@ ORDER BY 1 DESC;
 
 1.- Como resultado del análisis realizado a las variables PEDIDOS por CATEGORíA de comida, podemos observar lo siguiente: El comportamiento de los 12234 pedidos registrados en el periodo por cada una de las 4 categorías de comida se mantiene muy equilibrado en 3 de ellas y la comida Asian presenta valores más competitivos, rgistrando los siguientes valores.
 
-a).- American  2734 pedidos con un 22.3%
+...a).- American  2734 pedidos con un 22.3%...
 b).- Asian 3470 pedidos con un 28.3%
 c).- Mexican 2945 pedidos con un 24.0%
 d).- Italian 2948 pedidos con un 24.1%
 
 Ahora bien, si los PEDIDOS por CATEGORÍA los evaluamos por MES durante el periodo de análisis ENERO-MARZO, los resultados son los siguientes.
+
 a).- American  enero 894, febrero 859 y marzo 981 pedidos.  Observamos una tendencia el último mes a la mejora.
 b).- Asian enero 1186, febrero 1117 y marzo 1167 pedidos. Es la categoría estrella en pedidos, registra una ligera tendencia a la mejora el último mes.
 c).- Mexican enero 1026, febrero 948 y marzo 971 pedidos. Se observa una tendencia a la baja en pedidos.
