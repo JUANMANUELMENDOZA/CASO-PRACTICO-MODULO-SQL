@@ -269,7 +269,7 @@ ORDER BY 1 DESC;
 
 
 
-1.- Como resultado del análisis realizado a las variables PEDIDOS por CATEGORíA de comida, podemos observar lo siguiente: El comportamiento de los 12234 pedidos registrados en el periodo por cada una de las 4 categorías de comida se mantiene muy equilibrado en 3 de ellas y la comida Asian presenta valores más competitivos, rgistrando los siguientes valores.
+1. Como resultado del análisis realizado a las variables PEDIDOS por CATEGORíA de comida, podemos observar lo siguiente: El comportamiento de los 12234 pedidos registrados en el periodo por cada una de las 4 categorías de comida se mantiene muy equilibrado en 3 de ellas y la comida Asian presenta valores más competitivos, rgistrando los siguientes valores.
 
 a).- American  2734 pedidos con un 22.3%
 b).- Asian 3470 pedidos con un 28.3%
@@ -290,7 +290,7 @@ d).- Italian enero 998, febrero 927 y marzo 1023 pedidos. Es la categoría estre
 ![Captura de Pantalla 2024-08-01 a la(s) 9 33 22 a m](https://github.com/user-attachments/assets/6ab451bb-1766-4ec8-a53f-64deaa85e407)
 
 
-2.- El resultado del análisis al contrastar PEDIDOS por PRODUCTO de comida, se observa lo siguiente. El comportamiento de los 12234 registrados en el periodo pedidos por cada uno de los        32 productos incluidos en el menu, registra datos interesantes.
+2. El resultado del análisis al contrastar PEDIDOS por PRODUCTO de comida, se observa lo siguiente. El comportamiento de los 12234 registrados en el periodo pedidos por cada uno de los        32 productos incluidos en el menu, registra datos interesantes.
 
 a).- American:  Hamburger 622, Cheeseburger 583, French fries 571, Mac&Cheese 463, HotDog 257 y VeggieBurger 238.  
 b).- Asian: Edamame 620, Korean Beef Bowl 588, Tofu Pad Tai 562 Orange Chicken 456, Pork Ramen 360, California Roll 355, Salmon Roll 324 y Poststickers 205.
@@ -308,7 +308,7 @@ Los 10 productos estrella en lo que respecta a pedidos, dicho de otra forma, los
 
 
 
-3.- Como resultado del análisis realizado a las variables VENTAS por CATEGORíA de comida, podemos observar lo siguiente: Se tiene registrado un ingreso total por concepto de ventas de      $159, 217.90, al estratificar por categoría de comida se obtuvieron los siguientes resultados.
+3. Como resultado del análisis realizado a las variables VENTAS por CATEGORíA de comida, podemos observar lo siguiente: Se tiene registrado un ingreso total por concepto de ventas de      $159, 217.90, al estratificar por categoría de comida se obtuvieron los siguientes resultados.
 a).- American  $28,237.75 con un 17.73% del total de ventas.
 b).- Asian $46,720.65 con un 29.34% del total de ventas.
 c).- Mexican $34,796. 80 con un 21.85% del total de ventas.
@@ -329,7 +329,7 @@ d).- Italian enero $16,727.75, febrero $15,545.05 y marzo $17,189.90. Es la cate
 
 
 
-4.- El resultado del análisis al contrastar VENTAS por PRODUCTO de comida, se observa lo siguiente. El registro de los ingresos obtenidos por venta de los 32 productos de comida es por un total de $159,217.90. Ahora bien, distribuido por productos se tiene lo siguiente.
+4. El resultado del análisis al contrastar VENTAS por PRODUCTO de comida, se observa lo siguiente. El registro de los ingresos obtenidos por venta de los 32 productos de comida es por un total de $159,217.90. Ahora bien, distribuido por productos se tiene lo siguiente.
 
 a).- American:  Hamburger $8,055, Cheeseburger $8,133, French fries $3,997, Mac&Cheese $3,241, HotDog $2,313 y VeggieBurger $2,499.  
 b).- Asian: Edamame $3,100, Korean Beef Bowl $10,555, Tofu Pad Tai $8,149, Orange Chicken $7,524, Pork Ramen $6,462, California Roll $4,242, Salmon Roll $4,844 y Poststickers $1,845.
@@ -344,7 +344,7 @@ Los 10 productos estrella en lo que respecta a ventas, dicho de otra forma, los 
 
 
 
-5.- El resultado del análisis al contrastar VENTAS por PRODUCTO de comida, se observa lo siguiente. El registro de los ingresos obtenidos por venta de los 32 productos de comida es por un total de $159,217.90. Ahora bien, distribuido por productos durante el periodo enero-marzo, se tiene lo siguiente.
+5. El resultado del análisis al contrastar VENTAS por PRODUCTO de comida, se observa lo siguiente. El registro de los ingresos obtenidos por venta de los 32 productos de comida es por un total de $159,217.90. Ahora bien, distribuido por productos durante el periodo enero-marzo, se tiene lo siguiente.
 Si evaluamos el comportamiento durante el periodo mencionado, de los 10 mejores y los 10 inferiores productos, obtenemos los siguientes resultados:
 
 a).- No se observan incrementos o decrementos en las ventas que sean cuánticos, hasta cierto punto hay estabilidad. Ahora bien, si debemos destacar a los platillos Asian, Korean Beef Bowl que presenta un incremento del 9% en ventas comparando marzo a febrero, de igual forma en la categoria de Asian, el Orange Chicken registra un incremento en las ventas del 15% comparando marzo a febrero y por último en la misma categoría el Tofu Pad Thai presenta un incremento en las ventas del 15% comparando marzo a febrero.
