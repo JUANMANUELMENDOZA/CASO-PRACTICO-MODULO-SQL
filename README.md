@@ -259,11 +259,11 @@ ORDER BY 1 DESC;
 
 /* 21.-) Consultar total de ingresos obtenidos por categoria de comida 'Italian'*/
 
-...SELECT SUM (menu_items.price), category
+SELECT SUM (menu_items.price), category
 FROM order_details JOIN menu_items ON order_details.item_id=menu_items.menu_item_id
 WHERE category='Italian' 
 GROUP BY 2
-ORDER BY 1 DESC;...
+ORDER BY 1 DESC;
 
 ## Resultados
 
@@ -271,7 +271,7 @@ ORDER BY 1 DESC;...
 
 1.- Como resultado del análisis realizado a las variables PEDIDOS por CATEGORíA de comida, podemos observar lo siguiente: El comportamiento de los 12234 pedidos registrados en el periodo por cada una de las 4 categorías de comida se mantiene muy equilibrado en 3 de ellas y la comida Asian presenta valores más competitivos, rgistrando los siguientes valores.
 
-...a).- American  2734 pedidos con un 22.3%...
+a).- American  2734 pedidos con un 22.3%
 b).- Asian 3470 pedidos con un 28.3%
 c).- Mexican 2945 pedidos con un 24.0%
 d).- Italian 2948 pedidos con un 24.1%
@@ -296,12 +296,14 @@ b).- Asian: Edamame 620, Korean Beef Bowl 588, Tofu Pad Tai 562 Orange Chicken 4
 c).- Mexican: Steak torta 489, Chip&salsa 461, Chicken Burrito 455, Chicken torta 379, Steak Burrito 354, Chips & Guacamole 237, Cheese quezadillas 233, Steak tacos 214 y Chicken tacos 123.
 d).- Italian: Spaghetti & meatballs 470, Eggplant parmesan 420, Spaghetti 367, Chicken parmesan 364, Mushroom Ravioli 359, Meat Lasagna 273, Fetuccine Alfredo 249, Shrimp Scampi 239 y Cheese Lasagna 207.
 
-Los 10 productos estrella en lo que respecta a pedidos, dicho de otra forma, los más solicitados son: Hamburger 622,  Edamame 620, Korean Beef Bowl 588, Cheeseburger 583, French fries 571, Tofu Pad Tai 562, Steak torta 489, Spaghetti & meatballs 470, Mac&Cheese 463 y Chip&salsa 461. Cabe mencionar que 10 de los 32 productos un 30%, representan el 45% del total de los pedidos. 
+Los 10 productos estrella en lo que respecta a pedidos, dicho de otra forma, los más solicitados son: Hamburger 622,  Edamame 620, Korean Beef Bowl 588, Cheeseburger 583, French fries 571, Tofu Pad Tai 562, Steak torta 489, Spaghetti & meatballs 470, Mac&Cheese 463 y Chip&salsa 461. Cabe mencionar que 10 de los 32 productos un 30%, representan el 45% del total de los pedidos. Asimismo, se incluye la relación de los 10 productos inferiores en lo que respecta a pedidos, el análisis completo lo realizaremos con ventas.
 
 
 ![Captura de Pantalla 2024-07-31 a la(s) 9 47 33 p m](https://github.com/user-attachments/assets/aa588276-bdbc-4e9f-93c4-4778b2435df4)
 
-![Captura de Pantalla 2024-07-31 a la(s) 10 00 37 p m](https://github.com/user-attachments/assets/d0fa9e2c-b983-4cf0-9064-1570ff68dfd8)
+![Captura de Pantalla 2024-08-01 a la(s) 10 04 15 a m](https://github.com/user-attachments/assets/a37fb18f-7780-4dda-b2be-01e30eba9edc)
+
+![Captura de Pantalla 2024-08-01 a la(s) 10 03 01 a m](https://github.com/user-attachments/assets/b796c7e0-3c87-40c7-ab03-cd32c9db09a7)
 
 
 
