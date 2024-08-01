@@ -284,10 +284,8 @@ d).- Italian enero 998, febrero 927 y marzo 1023 pedidos. Es la categoría estre
 
 ![Captura de Pantalla 2024-07-31 a la(s) 9 47 09 p m](https://github.com/user-attachments/assets/9ba1684c-8592-4e07-81e9-63ec796c2f46)
 
-![Captura de Pantalla 2024-07-31 a la(s) 9 50 13 p m](https://github.com/user-attachments/assets/fdad5352-6d20-4ec7-a0dc-27279679d49a)
-
-
-![Captura de Pantalla 2024-07-31 a la(s) 9 50 37 p m](https://github.com/user-attachments/assets/419e049b-3828-4502-a29f-2b5ac6703911)
+![Captura de Pantalla 2024-08-01 a la(s) 9 33 39 a m](https://github.com/user-attachments/assets/8381cada-920c-4a0d-a9d3-1a4a5230eb17)
+![Captura de Pantalla 2024-08-01 a la(s) 9 33 22 a m](https://github.com/user-attachments/assets/6ab451bb-1766-4ec8-a53f-64deaa85e407)
 
 
 2.- El resultado del análisis al contrastar PEDIDOS por PRODUCTO de comida, se observa lo siguiente. El comportamiento de los 12234 registrados en el periodo pedidos por cada uno de los        32 productos incluidos en el menu, registra datos interesantes.
@@ -320,11 +318,9 @@ d).- Italian enero $16,727.75, febrero $15,545.05 y marzo $17,189.90. Es la cate
 
 ![Captura de Pantalla 2024-07-31 a la(s) 9 48 23 p m](https://github.com/user-attachments/assets/262540b4-f869-46fa-9dc9-73f52a628e6e)
 
-![Captura de Pantalla 2024-07-31 a la(s) 9 50 13 p m](https://github.com/user-attachments/assets/c7afa70f-d058-4b77-acae-a8cc7a34c747)
 
-
-![Captura de Pantalla 2024-07-31 a la(s) 9 50 37 p m](https://github.com/user-attachments/assets/561fae21-7d62-4628-8404-95496a72beb2)
-
+![Captura de Pantalla 2024-08-01 a la(s) 9 34 45 a m](https://github.com/user-attachments/assets/c12b08ee-949e-4ef4-b28e-6d775072d985)
+![Captura de Pantalla 2024-08-01 a la(s) 9 34 29 a m](https://github.com/user-attachments/assets/d37df5dc-8a9e-4b2a-a64b-c9a6eaa614e7)
 
 
 
