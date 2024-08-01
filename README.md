@@ -283,7 +283,8 @@ b).- Asian enero 1186, febrero 1117 y marzo 1167 pedidos. Es la categoría estre
 c).- Mexican enero 1026, febrero 948 y marzo 971 pedidos. Se observa una tendencia a la baja en pedidos.
 d).- Italian enero 998, febrero 927 y marzo 1023 pedidos. Es la categoría estrella en ventas y muestra una tendecia a la mejora del 10%  el mes de marzo  respecto a febrero.
 
-![Captura de Pantalla 2024-07-31 a la(s) 9 47 09 p m](https://github.com/user-attachments/assets/9ba1684c-8592-4e07-81e9-63ec796c2f46)
+![Captura de Pantalla 2024-08-01 a la(s) 10 12 44 a m](https://github.com/user-attachments/assets/93d25c17-0d7e-4e5e-97ba-aa65143a8643)
+
 
 ![Captura de Pantalla 2024-08-01 a la(s) 9 33 39 a m](https://github.com/user-attachments/assets/8381cada-920c-4a0d-a9d3-1a4a5230eb17)
 ![Captura de Pantalla 2024-08-01 a la(s) 9 33 22 a m](https://github.com/user-attachments/assets/6ab451bb-1766-4ec8-a53f-64deaa85e407)
