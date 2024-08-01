@@ -110,8 +110,160 @@ FROM order_details
 LEFT JOIN menu_items
 ON order_details.item_id=menu_items.menu_item_id;
 
+/* 1.-) Consultar total de pedidos de comida 'American'*/	
 
+SELECT*FROM order_details JOIN menu_items ON order_details.item_id=menu_items.menu_item_id
+WHERE category='American';
 
+/* 2.-) Consultar total de pedidos de comida 'Asian'*/	
+
+SELECT*FROM order_details JOIN menu_items ON order_details.item_id=menu_items.menu_item_id
+WHERE category='Asian';
+
+/* 3.-) Consultar total de pedidos de comida 'Mexican'*/	
+
+SELECT*FROM order_details JOIN menu_items ON order_details.item_id=menu_items.menu_item_id
+WHERE category='Mexican';
+
+/* 4.-) Consultar total de pedidos de comida 'Italian'*/	
+	
+SELECT*FROM order_details JOIN menu_items ON order_details.item_id=menu_items.menu_item_id
+WHERE category='Italian';
+
+/* 5.-) Consultar total de productos vendidos de comida 'American'*/	
+
+SELECT COUNT (order_details.order_id), menu_items.item_name
+FROM order_details JOIN menu_items ON order_details.item_id=menu_items.menu_item_id
+WHERE category='American' 
+GROUP BY  menu_items.item_name
+ORDER BY 1 DESC;
+
+/* 6.-) Consultar total de productos vendidos de comida 'Asian'*/
+	
+SELECT COUNT (order_details.order_id), menu_items.item_name
+FROM order_details JOIN menu_items ON order_details.item_id=menu_items.menu_item_id
+WHERE category='Asian' 
+GROUP BY  menu_items.item_name
+ORDER BY 1 DESC;
+
+/* 7.-) Consultar total de productos vendidos de comida 'Mexican'*/
+
+SELECT COUNT (order_details.order_id), menu_items.item_name
+FROM order_details JOIN menu_items ON order_details.item_id=menu_items.menu_item_id
+WHERE category='Mexican' 
+GROUP BY  menu_items.item_name
+ORDER BY 1 DESC;
+
+/* 8.-) Consultar total de productos vendidos de comida 'Italian'*/
+
+SELECT COUNT (order_details.order_id), menu_items.item_name
+FROM order_details JOIN menu_items ON order_details.item_id=menu_items.menu_item_id
+WHERE category='Italian' 
+GROUP BY  menu_items.item_name
+ORDER BY 1 DESC;
+
+/* 9.-) Consultar total de pedidos por fecha de comida 'American'*/
+
+SELECT COUNT (order_details.order_id), order_details.order_date
+FROM order_details JOIN menu_items ON order_details.item_id=menu_items.menu_item_id
+WHERE category='American' 
+GROUP BY  order_details.order_date
+ORDER BY 2 ASC;
+
+/* 10.-) Consultar total de pedidos por fecha de comida 'Asian'*/
+	
+SELECT COUNT (order_details.order_id), order_details.order_date
+FROM order_details JOIN menu_items ON order_details.item_id=menu_items.menu_item_id
+WHERE category='Asian' 
+GROUP BY  order_details.order_date
+ORDER BY 2 ASC;
+
+/* 11.-) Consultar total de pedidos por fecha de comida 'Mexican'*/	
+	
+SELECT COUNT (order_details.order_id), order_details.order_date
+FROM order_details JOIN menu_items ON order_details.item_id=menu_items.menu_item_id
+WHERE category='Mexican' 
+GROUP BY  order_details.order_date
+ORDER BY 2 ASC;
+
+/* 12.-) Consultar total de pedidos por fecha de comida 'Italian'*/
+	
+SELECT COUNT (order_details.order_id), order_details.order_date
+FROM order_details JOIN menu_items ON order_details.item_id=menu_items.menu_item_id
+WHERE category='Italian' 
+GROUP BY  order_details.order_date
+ORDER BY 2 ASC;
+
+/* 13.-) Consultar total de ingresos obtenidos por productos de comida 'American'*/
+
+SELECT SUM (menu_items.price), menu_items.item_name
+FROM order_details JOIN menu_items ON order_details.item_id=menu_items.menu_item_id
+WHERE category='American' 
+GROUP BY  2
+ORDER BY 1 DESC;
+
+/* 14.-) Consultar total de ingresos obtenidos por productos de comida 'Asian'*/
+
+SELECT SUM (menu_items.price), menu_items.item_name
+FROM order_details JOIN menu_items ON order_details.item_id=menu_items.menu_item_id
+WHERE category='Asian' 
+GROUP BY  2
+ORDER BY 1 DESC;
+
+/* 15.-) Consultar total de ingresos obtenidos por productos de comida 'Mexican'*/
+
+SELECT SUM (menu_items.price), menu_items.item_name
+FROM order_details JOIN menu_items ON order_details.item_id=menu_items.menu_item_id
+WHERE category='Mexican' 
+GROUP BY  2
+ORDER BY 1 DESC;
+
+/* 16.-) Consultar total de ingresos obtenidos por productos de comida 'Italian'*/
+
+SELECT SUM (menu_items.price), menu_items.item_name
+FROM order_details JOIN menu_items ON order_details.item_id=menu_items.menu_item_id
+WHERE category='Italian' 
+GROUP BY  2
+ORDER BY 1 DESC;
+
+/* 17.-) Consultar total de ingresos obtenidos por productos de todas las categorias*/
+
+SELECT SUM (menu_items.price), menu_items.item_name
+FROM order_details JOIN menu_items ON order_details.item_id=menu_items.menu_item_id
+GROUP BY  2
+ORDER BY 1 DESC;
+
+/* 18.-) Consultar total de ingresos obtenidos por categoria de comida 'American'*/
+
+SELECT SUM (menu_items.price), category
+FROM order_details JOIN menu_items ON order_details.item_id=menu_items.menu_item_id
+WHERE category='American' 
+GROUP BY 2
+ORDER BY 1 DESC;
+
+/* 19.-) Consultar total de ingresos obtenidos por categoria de comida 'Asian'*/
+
+SELECT SUM (menu_items.price), category
+FROM order_details JOIN menu_items ON order_details.item_id=menu_items.menu_item_id
+WHERE category='Asian' 
+GROUP BY 2
+ORDER BY 1 DESC;
+
+/* 20.-) Consultar total de ingresos obtenidos por categoria de comida 'Mexican'*/
+
+SELECT SUM (menu_items.price), category
+FROM order_details JOIN menu_items ON order_details.item_id=menu_items.menu_item_id
+WHERE category='Mexican' 
+GROUP BY 2
+ORDER BY 1 DESC;
+
+/* 21.-) Consultar total de ingresos obtenidos por categoria de comida 'Italian'*/
+
+SELECT SUM (menu_items.price), category
+FROM order_details JOIN menu_items ON order_details.item_id=menu_items.menu_item_id
+WHERE category='Italian' 
+GROUP BY 2
+ORDER BY 1 DESC;
 
 ## Resultados
 
