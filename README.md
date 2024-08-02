@@ -9,22 +9,22 @@ Identificar cuáles son los productos del menú que han tenido más éxito y cua
 
 ## Pasos a seguir
 
-a) Crear la base de datos con el archivo create_restaurant_db.sql
+**a) Crear la base de datos con el archivo create_restaurant_db.sql**
 
 create_restaurant_db.sql
  
-b) Explorar la tabla “menu_items” para conocer los productos del menú.
+**b) Explorar la tabla “menu_items” para conocer los productos del menú.**
 
 SELECT*FROM menu_items;	
 
-1.- Realizar consultas para contestar las siguientes preguntas:
+**1.- Realizar consultas para contestar las siguientes preguntas:**
 
-● Encontrar el número de artículos en el menú.
+**● Encontrar el número de artículos en el menú.**
 
 SELECT COUNT (item_name)
 FROM menu_items;
 
-● ¿Cuál es el artículo menos caro y el más caro en el menú?
+**● ¿Cuál es el artículo menos caro y el más caro en el menú?**
 
 SELECT MIN (price),item_name
 FROM menu_items
@@ -354,6 +354,8 @@ b).- Destaca que hay 4 productos con bajo nivel de ingresos por ventas, que son 
 c).- Esta puede ser una estratégia que se puede fortalecer, integrar combos con platillos que son demandados y representan un ingreso importante en las ventas,  y anexar productos que no representan actualmente ingresos fuertes en ventas, pero se tienen identificados en el buen gusto de los clientes.
 
 d).- Existe un portafolio bien diversificado de clientes, un segmento enfocado en platillos más gourmet (Italian y Asian) que representan un ingreso importante en ventas. Asimismo, segmentos de clientes enfocados en platillos populares de bajo y medio costo que se encuentran en las categorías de comidas (american y Mexican).
+
+e).- Se registrarón 137 pedidos nulos, que representan el 1.1% del total de los pedidos, es importante identificar que ocurre durante el proceso para que se clasifique como nulo, asimismo, implementar las acciones necesarias para evitar su recurrencia.
 
 
 ![Captura de Pantalla 2024-07-31 a la(s) 9 51 29 p m](https://github.com/user-attachments/assets/a1810fde-4444-4b23-89f2-62582c99ff36)
