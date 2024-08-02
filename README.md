@@ -17,7 +17,7 @@ create_restaurant_db.sql
 
 SELECT*FROM menu_items;	
 
-**1.- Realizar consultas para contestar las siguientes preguntas:**
+** 1.- Realizar consultas para contestar las siguientes preguntas: **
 
 **● Encontrar el número de artículos en el menú.**
 
@@ -39,29 +39,29 @@ GROUP BY item_name
 ORDER BY 1 DESC
 LIMIT 1;
 
-● ¿Cuántos platos americanos hay en el menú?
+**● ¿Cuántos platos americanos hay en el menú?**
 
 SELECT category
 FROM menu_items
 WHERE category = 'American';
 
-● ¿Cuál es el precio promedio de los platos?
+**● ¿Cuál es el precio promedio de los platos?**
 
 SELECT ROUND (AVG (price),2)
 FROM menu_items;
 
-c) Explorar la tabla “order_details” para conocer los datos que han sido recolectados. 
+**c) Explorar la tabla “order_details” para conocer los datos que han sido recolectados.** 
 
 SELECT*FROM order_details;
 
-1.- Realizar consultas para contestar las siguientes preguntas:
+**1.- Realizar consultas para contestar las siguientes preguntas:**
 
-● ¿Cuántos pedidos únicos se realizaron en total?
+**● ¿Cuántos pedidos únicos se realizaron en total?**
 
 SELECT COUNT(DISTINCT order_id)
 FROM order_details;
 
-● ¿Cuáles son los 5 pedidos que tuvieron el mayor número de artículos?
+**● ¿Cuáles son los 5 pedidos que tuvieron el mayor número de artículos?**
 
 SELECT COUNT (order_details_id), order_id
 FROM order_details
@@ -69,22 +69,22 @@ GROUP BY order_id
 ORDER BY 1 DESC
 LIMIT 5;
 
-● ¿Cuándo se realizó el primer pedido y el último pedido?
+**● ¿Cuándo se realizó el primer pedido y el último pedido?**
 
 SELECT MIN (order_date), MAX (order_date)
 FROM order_details;
 
-● ¿Cuántos pedidos se hicieron entre el '2023-01-01' y el '2023-01-05'?
+**● ¿Cuántos pedidos se hicieron entre el '2023-01-01' y el '2023-01-05'?**
 
 SELECT COUNT (order_details_id), order_date
 FROM order_details
 WHERE order_date <= '2023-01-05'
 GROUP BY 2;
 
-d) Usar ambas tablas para conocer la reacción de los clientes respecto al menú.
+**d) Usar ambas tablas para conocer la reacción de los clientes respecto al menú.**
 
-1.- Realizar un left join entre entre order_details y menu_items con el identificador
-item_id(tabla order_details) y menu_item_id(tabla menu_items).
+**1.- Realizar un left join entre entre order_details y menu_items con el identificador
+item_id(tabla order_details) y menu_item_id(tabla menu_items).**
 
 
 SELECT order_details.item_id, menu_items.menu_item_id
@@ -93,10 +93,10 @@ LEFT JOIN menu_items
 ON order_details.item_id=menu_items.menu_item_id;
 
 
-e) Una vez que hayas explorado los datos en las tablas correspondientes y respondido las preguntas planteadas, realiza un análisis adicional utilizando este join entre las tablas. El objetivo es identificar 5 puntos clave que puedan ser de utilidad para los dueños del restaurante en el lanzamiento de su nuevo menú. Para ello, crea tus propias consultas y utiliza los resultados obtenidos para llegar a estas conclusiones.
+**e) Una vez que hayas explorado los datos en las tablas correspondientes y respondido las preguntas planteadas, realiza un análisis adicional utilizando este join entre las tablas. El objetivo es identificar 5 puntos clave que puedan ser de utilidad para los dueños del restaurante en el lanzamiento de su nuevo menú. Para ello, crea tus propias consultas y utiliza los resultados obtenidos para llegar a estas conclusiones.**
 
-/*Realizar un left join entre order_details y menu_items con el identificador item_id(tabla order_details)
-y menu_item_id(tabla menu_items), seleccionando más columnas para su análisis*/
+**Realizar un left join entre entre order_details y menu_items con el identificador
+item_id(tabla order_details) y menu_item_id(tabla menu_items), seleccionar más columnas para su análisis.**
 
 SELECT order_details.item_id,
 order_details.order_details_id,
