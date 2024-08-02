@@ -17,7 +17,7 @@ create_restaurant_db.sql
 
 SELECT*FROM menu_items;	
 
-** 1.- Realizar consultas para contestar las siguientes preguntas: **
+**1.- Realizar consultas para contestar las siguientes preguntas:**
 
 **● Encontrar el número de artículos en el menú.**
 
